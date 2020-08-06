@@ -14,8 +14,8 @@ function App() {
 
   async function handleAddRepository() {
     const response = await api.post('repositories', {
-      title: 'Umbriel',
-      url: 'https://github.com/rocketseat/umbriel',
+      title: 'Conceitos Node e React',
+      url: 'https://github.com/heydrigh/conceitos-node-react',
       techs: ['Node.js', 'ReactJS']
     })
 
